@@ -1,0 +1,23 @@
+html {
+    overflow-x: hidden; /* They don't set the viewport-width like they're supposed to, so we get a random scrollbar on the bottom :( */
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    
+    width: 80ch;
+    max-width: calc(100% - 2ch);
+    margin: 0 auto;
+}
+
+tt {
+    background-color: #0001;
+    border: 1px solid #0005;
+    border-radius: 0.5em;
+    
+    font-family: "Consolas", "Courier New", monospace;
+    font-size: inherit;
+    
+    padding-left: 0.5ch;
+    padding-right: 0.5ch;
+}
